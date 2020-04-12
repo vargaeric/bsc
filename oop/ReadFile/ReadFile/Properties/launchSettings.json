@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadFile": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\User\\Documents\\uni\\oop\\ReadFile\\file.txt"
+    }
+  }
+}
