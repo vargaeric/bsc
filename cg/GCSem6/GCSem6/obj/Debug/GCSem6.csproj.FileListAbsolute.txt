@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\GCSem6\GCSem6\bin\Debug\GCSem6.exe.config
+C:\Users\User\source\repos\GCSem6\GCSem6\bin\Debug\GCSem6.exe
+C:\Users\User\source\repos\GCSem6\GCSem6\bin\Debug\GCSem6.pdb
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.Form1.resources
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.Properties.Resources.resources
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.exe
+C:\Users\User\source\repos\GCSem6\GCSem6\obj\Debug\GCSem6.pdb

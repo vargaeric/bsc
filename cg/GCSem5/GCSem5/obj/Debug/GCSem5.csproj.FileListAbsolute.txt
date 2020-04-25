@@ -1,0 +1,20 @@
+C:\Users\User\source\repos\GCSem5\GCSem5\bin\Debug\GCSem5.exe.config
+C:\Users\User\source\repos\GCSem5\GCSem5\bin\Debug\GCSem5.exe
+C:\Users\User\source\repos\GCSem5\GCSem5\bin\Debug\GCSem5.pdb
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.Form1.resources
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.Properties.Resources.resources
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.exe
+C:\Users\User\source\repos\GCSem5\GCSem5\obj\Debug\GCSem5.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\bin\Debug\GCSem5.exe.config
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\bin\Debug\GCSem5.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\bin\Debug\GCSem5.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.Form1.resources
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem5\GCSem5\obj\Debug\GCSem5.pdb
