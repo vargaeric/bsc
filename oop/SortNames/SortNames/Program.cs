@@ -65,7 +65,6 @@ namespace SortNames
                 }
                 
                 listOfPersons.sortByName();
-                string propName = Person.propNames[2];
 
                 File.WriteAllLines(@"..\..\..\..\sortedNames.txt", listOfPersons.getOutputFormat());
             }

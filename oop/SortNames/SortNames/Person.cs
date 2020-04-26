@@ -21,16 +21,16 @@ namespace SortNames
         {
             get
             {
-                Type myType = typeof(Person);
-                PropertyInfo myPropInfo = myType.GetProperty(propertyName);
-                return myPropInfo.GetValue(this, null);
+                Type type = typeof(Person);
+                PropertyInfo propInfo = type.GetProperty(propertyName);
+                return propInfo.GetValue(this, null);
             }
+
             set
             {
-                Type myType = typeof(Person);
-                PropertyInfo myPropInfo = myType.GetProperty(propertyName);
-                myPropInfo.SetValue(this, value, null);
-
+                Type type = typeof(Person);
+                PropertyInfo propInfo = type.GetProperty(propertyName);
+                propInfo.SetValue(this, value, null);
             }
         }
 
