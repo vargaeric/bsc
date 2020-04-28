@@ -24,3 +24,16 @@ C:\Users\User\Documents\uni\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\ne
 C:\Users\User\Documents\uni\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.dll
 C:\Users\User\Documents\uni\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.pdb
 C:\Users\User\Documents\uni\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.genruntimeconfig.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\bin\Debug\netcoreapp3.1\ComplexNrDataType.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\bin\Debug\netcoreapp3.1\ComplexNrDataType.deps.json
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\bin\Debug\netcoreapp3.1\ComplexNrDataType.runtimeconfig.json
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\bin\Debug\netcoreapp3.1\ComplexNrDataType.runtimeconfig.dev.json
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\bin\Debug\netcoreapp3.1\ComplexNrDataType.dll
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\bin\Debug\netcoreapp3.1\ComplexNrDataType.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.AssemblyInfoInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.AssemblyInfo.cs
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.dll
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\ComplexNrDataType\ComplexNrDataType\obj\Debug\netcoreapp3.1\ComplexNrDataType.genruntimeconfig.cache

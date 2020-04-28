@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\uni\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj": {}
+    "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\uni\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj": {
+    "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\uni\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj",
+        "projectUniqueName": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj",
         "projectName": "ComplexNrDataType",
-        "projectPath": "C:\\Users\\User\\Documents\\uni\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\uni\\oop\\ComplexNrDataType\\ComplexNrDataType\\obj\\",
+        "projectPath": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\ComplexNrDataType\\ComplexNrDataType\\ComplexNrDataType.csproj",
+        "packagesPath": "C:\\Users\\Varga Erik Zsolt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\ComplexNrDataType\\ComplexNrDataType\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Varga Erik Zsolt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

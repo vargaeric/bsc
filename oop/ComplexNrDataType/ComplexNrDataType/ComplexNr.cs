@@ -4,8 +4,8 @@ namespace ComplexNrDatatype
 {
     class ComplexNr
     {
-        double realPart;
-        double imaginaryPart;
+        public double realPart { get; }
+        public double imaginaryPart { get; }
 
         void validateInput(string input)
         {
@@ -36,7 +36,7 @@ namespace ComplexNrDatatype
             this.imaginaryPart = imaginaryPart;
         }
 
-        double roundNr(double nr)
+        public static double roundNr(double nr)
             => Math.Round(nr, 3, MidpointRounding.AwayFromZero);
 
         public override string ToString() =>
@@ -56,28 +56,36 @@ namespace ComplexNrDatatype
                 a.realPart * b.imaginaryPart + a.imaginaryPart * b.realPart
             );
 
-        public static ComplexNr operator ^(ComplexNr a, int power)
+        public virtual ComplexNr toThePower(int power)
         {
-            ComplexNr result = a;
+            ComplexNr result = this;
 
             for (int i = 0; i < power - 1; i++)
-            {
-                result *= a;
-            }
+                result *= this;
 
             return result;
         }
 
-        public string trigonometricFormToThePowerOf(int power)
+        // Get the numbers of the trigonometric form
+        public Program.trigonometricForm getNrsOfTrigoForm(ComplexNr complexNr, int power)
         {
             double theta = Math.Atan(this.imaginaryPart / this.realPart);
             double r = Math.Sqrt(Math.Pow(this.realPart, 2) + Math.Pow(this.imaginaryPart, 2));
 
-            double rToThePowerOfN = roundNr(Math.Pow(r, power));
-            double realPart = Math.Cos(theta * power);
-            double imaginaryPart = Math.Sin(theta * power);
+            return new Program.trigonometricForm
+            {
+                factor = roundNr(Math.Pow(r, power)),
+                realPart = Math.Cos(theta * power),
+                imaginaryPart = Math.Sin(theta * power)
+            };
+        }
 
-            return $"{rToThePowerOfN}*{new ComplexNr(realPart, imaginaryPart)}";
+        public string trigonometricFormToThePowerOf(int power = 1)
+        {
+            Program.trigonometricForm nrsOfTrigoForm = getNrsOfTrigoForm(this, power);
+
+            return $"{nrsOfTrigoForm.factor}*" +
+                $"{new ComplexNr(nrsOfTrigoForm.realPart, nrsOfTrigoForm.imaginaryPart)}";
         }
     }
 }
