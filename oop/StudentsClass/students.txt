@@ -1,0 +1,21 @@
+Bennett Christian 4 3 1 9 7
+Jordan Luke 4 5 6 2 1
+Lopez Liam 3 2 1 9
+Lopez Larry 3 2 1 9
+Jordan Kyle 4 5 6 2 1
+Cooper Ryan 2 10 2
+Cooper Larry 3 10 8 6
+Jordan Ryan 4 5 6 2 1
+Jordan Laurence 4 5 6 2 1
+Jack Sparrow 4 5 6 2 1
+Jack Samuel 4 5 6 2 1
+Jack Sebastian 4 5 6 2 1
+Jordan Larry 4 5 6 2 1
+Gibson Laurence 3 9 6 8
+Lopez Robert 3 2 1 9
+King Luke 3 9 6 8
+Jordan Lyler 4 5 6 2 1
+Jordan Liam 4 5 6 2 1
+Harrison Otis 3 9 6 8
+Morris Tyler 3 2 1 9
+Henry Kyle 2 3 7
