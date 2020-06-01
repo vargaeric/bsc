@@ -1,0 +1,10 @@
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\bin\Debug\GCSem13.exe.config
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\bin\Debug\GCSem13.exe
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\bin\Debug\GCSem13.pdb
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.Form1.resources
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.exe
+C:\Users\Varga Erik Zsolt\source\repos\GCSem13\GCSem13\obj\Debug\GCSem13.pdb

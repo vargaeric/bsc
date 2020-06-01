@@ -1,0 +1,10 @@
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\bin\Debug\Jarvis.exe.config
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\bin\Debug\Jarvis.exe
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\bin\Debug\Jarvis.pdb
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Problem1.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Jarvis.Form1.resources
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Jarvis.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Problem1.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Problem1.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Jarvis.exe
+C:\Users\Varga Erik Zsolt\Downloads\GCSem9\Problem1\Jarvis\Jarvis\obj\Debug\Jarvis.pdb

@@ -1,0 +1,10 @@
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\bin\Debug\GCSem10.exe.config
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\bin\Debug\GCSem10.exe
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\bin\Debug\GCSem10.pdb
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.exe
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.pdb
+C:\Users\Varga Erik Zsolt\source\repos\GCSem10\GCSem10\obj\Debug\GCSem10.Form1.resources

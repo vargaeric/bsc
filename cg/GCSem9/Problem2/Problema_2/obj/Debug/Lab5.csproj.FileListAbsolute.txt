@@ -1,0 +1,30 @@
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\bin\Debug\Lab5.exe.config
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\bin\Debug\Lab5.exe
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\bin\Debug\Lab5.pdb
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.exe
+D:\C#\Geometrie-computationala-master\Lab5\Lab5\obj\Debug\Lab5.pdb
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Lab5\Lab5\obj\Debug\Lab5.pdb
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.Form1.resources
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.exe
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\obj\Debug\Lab5.pdb
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\bin\Debug\Lab5.exe
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\problema 2\Lab5\bin\Debug\Lab5.pdb

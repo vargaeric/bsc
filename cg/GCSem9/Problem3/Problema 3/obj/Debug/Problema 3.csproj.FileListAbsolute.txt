@@ -1,0 +1,30 @@
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema 3.csprojAssemblyReference.cache
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema_3.Form1.resources
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema_3.Properties.Resources.resources
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema 3.csproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema 3.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\bin\Debug\Problema 3.exe.config
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\bin\Debug\Problema 3.exe
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\bin\Debug\Problema 3.pdb
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema 3.exe
+C:\Users\Daniel\source\repos\Problema 3\Problema 3\obj\Debug\Problema 3.pdb
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\bin\Debug\Problema 3.exe.config
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\bin\Debug\Problema 3.exe
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\bin\Debug\Problema 3.pdb
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.csprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema_3.Form1.resources
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema_3.Properties.Resources.resources
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.csproj.GenerateResource.cache
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.exe
+C:\Users\Daniel\Desktop\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.pdb
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\bin\Debug\Problema 3.exe.config
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\bin\Debug\Problema 3.exe
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\bin\Debug\Problema 3.pdb
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema_3.Form1.resources
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema_3.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.exe
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_3\Problema 3\obj\Debug\Problema 3.pdb

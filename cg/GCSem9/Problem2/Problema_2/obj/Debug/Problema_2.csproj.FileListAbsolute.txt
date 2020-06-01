@@ -1,0 +1,20 @@
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.csprojAssemblyReference.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.Form1.resources
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.Properties.Resources.resources
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.csproj.GenerateResource.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\bin\Debug\Problema_2.exe.config
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\bin\Debug\Problema_2.exe
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\bin\Debug\Problema_2.pdb
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.exe
+C:\Users\Daniel\Downloads\Lab5-20200428T100513Z-001\Problema_2\Problema_2\obj\Debug\Problema_2.pdb
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\bin\Debug\Problema_2.exe.config
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\bin\Debug\Problema_2.exe
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\bin\Debug\Problema_2.pdb
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.Form1.resources
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.exe
+C:\Users\Varga Erik Zsolt\Downloads\seminarul_9\Problema_2\Problema_2\obj\Debug\Problema_2.pdb

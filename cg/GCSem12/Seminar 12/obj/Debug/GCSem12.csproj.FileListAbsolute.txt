@@ -1,0 +1,10 @@
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\bin\Debug\Seminar 12.exe.config
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\bin\Debug\Seminar 12.exe
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\bin\Debug\Seminar 12.pdb
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\GCSem12.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\Seminar_12.Form1.resources
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\Seminar_12.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\GCSem12.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\GCSem12.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\Seminar 12.exe
+C:\Users\Varga Erik Zsolt\Downloads\Seminar 12\Seminar 12\Seminar 12\obj\Debug\Seminar 12.pdb
