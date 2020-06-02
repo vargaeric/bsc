@@ -1,0 +1,19 @@
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe.config
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.pdb
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.csprojAssemblyReference.cache
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul_13___Voronoi.Form1.resources
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul_13___Voronoi.Properties.Resources.resources
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.csproj.GenerateResource.cache
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\silvia1\Desktop\geometrie\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.pdb
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe.config
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.pdb
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul_13___Voronoi.Form1.resources
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul_13___Voronoi.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\Varga Erik Zsolt\Downloads\Seminarul 13 - Voronoi (2)\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.pdb

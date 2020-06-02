@@ -1,0 +1,20 @@
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe.config
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\GCSem13.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\GCSem13.Form1.resources
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\GCSem13.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\GCSem13.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\GCSem13.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\Seminarul 13 - Voronoi\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe.config
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\bin\Debug\Seminarul 13 - Voronoi.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\GCSem13.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\GCSem13.Form1.resources
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\GCSem13.Properties.Resources.resources
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\GCSem13.csproj.GenerateResource.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\GCSem13.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\cg\GCSem13\GCSem13\Seminarul 13 - Voronoi\obj\Debug\Seminarul 13 - Voronoi.pdb
