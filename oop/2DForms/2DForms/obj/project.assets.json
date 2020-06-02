@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Varga Erik Zsolt\\source\\repos\\2DForms\\2DForms\\2DForms.csproj",
+      "projectUniqueName": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\2DForms\\2DForms\\2DForms.csproj",
       "projectName": "2DForms",
-      "projectPath": "C:\\Users\\Varga Erik Zsolt\\source\\repos\\2DForms\\2DForms\\2DForms.csproj",
+      "projectPath": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\2DForms\\2DForms\\2DForms.csproj",
       "packagesPath": "C:\\Users\\Varga Erik Zsolt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Varga Erik Zsolt\\source\\repos\\2DForms\\2DForms\\obj\\",
+      "outputPath": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\2DForms\\2DForms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Varga Erik Zsolt\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Varga Erik Zsolt\\source\\repos\\HeapSort\\HeapSort\\HeapSort.csproj": {}
+    "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\HeapSort\\HeapSort\\HeapSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Varga Erik Zsolt\\source\\repos\\HeapSort\\HeapSort\\HeapSort.csproj": {
+    "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\HeapSort\\HeapSort\\HeapSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Varga Erik Zsolt\\source\\repos\\HeapSort\\HeapSort\\HeapSort.csproj",
+        "projectUniqueName": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\HeapSort\\HeapSort\\HeapSort.csproj",
         "projectName": "HeapSort",
-        "projectPath": "C:\\Users\\Varga Erik Zsolt\\source\\repos\\HeapSort\\HeapSort\\HeapSort.csproj",
+        "projectPath": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\HeapSort\\HeapSort\\HeapSort.csproj",
         "packagesPath": "C:\\Users\\Varga Erik Zsolt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Varga Erik Zsolt\\source\\repos\\HeapSort\\HeapSort\\obj\\",
+        "outputPath": "C:\\Users\\Varga Erik Zsolt\\Documents\\university\\repo\\bsc\\oop\\HeapSort\\HeapSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Varga Erik Zsolt\\AppData\\Roaming\\NuGet\\NuGet.Config",
