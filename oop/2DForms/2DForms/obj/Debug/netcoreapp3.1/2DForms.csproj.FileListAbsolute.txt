@@ -1,0 +1,13 @@
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\bin\Debug\netcoreapp3.1\2DForms.exe
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\bin\Debug\netcoreapp3.1\2DForms.deps.json
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\bin\Debug\netcoreapp3.1\2DForms.runtimeconfig.json
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\bin\Debug\netcoreapp3.1\2DForms.runtimeconfig.dev.json
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\bin\Debug\netcoreapp3.1\2DForms.dll
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\bin\Debug\netcoreapp3.1\2DForms.pdb
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.AssemblyInfoInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.AssemblyInfo.cs
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.dll
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.pdb
+C:\Users\Varga Erik Zsolt\source\repos\2DForms\2DForms\obj\Debug\netcoreapp3.1\2DForms.genruntimeconfig.cache
