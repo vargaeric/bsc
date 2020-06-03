@@ -1,0 +1,13 @@
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\bin\Debug\netcoreapp3.1\AbstractPoints.exe
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\bin\Debug\netcoreapp3.1\AbstractPoints.deps.json
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\bin\Debug\netcoreapp3.1\AbstractPoints.runtimeconfig.json
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\bin\Debug\netcoreapp3.1\AbstractPoints.runtimeconfig.dev.json
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\bin\Debug\netcoreapp3.1\AbstractPoints.dll
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\bin\Debug\netcoreapp3.1\AbstractPoints.pdb
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.AssemblyInfoInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.AssemblyInfo.cs
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.dll
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.pdb
+C:\Users\Varga Erik Zsolt\source\repos\AbstractPoints\AbstractPoints\obj\Debug\netcoreapp3.1\AbstractPoints.genruntimeconfig.cache
