@@ -1,16 +1,51 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PersonalAgenda
 {
-    // Main program inital setup
     class Program
     {
+        static void separatorLine()
+        {
+            Console.WriteLine("_____________________________________________________");
+        }
+
         static void Main(string[] args)
         {
-            Agenda agenda = new Agenda();
-            Person person = new Person();
-            Activity activity = new Activity();
-            Data data = new Data();
+            try
+            {
+                // Create list of persons and activites
+                List<Person> persons = new List<Person>();
+                List<Activity> activites = new List<Activity>();
+
+                // Read data from CSV files
+                persons = ProcessData.parsePersonsCSVFile("../../../../persons.csv");
+                activites = ProcessData.parseActivitesCSVFile("../../../../activites.csv");
+
+                // Attach events to persons
+                activites.ForEach(delegate (Activity activity)
+                {
+                    foreach(int participantId in activity.Participants)
+                        for(int i = 0; i < persons.Count; i++)
+                            if(persons[i].Id == participantId)
+                                persons[i].PersonsAgenda.addActivity(activity);
+                });
+
+                bool exit = false;
+
+                ProcessData.help();
+
+                while (exit == false)
+                {
+                    separatorLine();
+                    Console.Write("Enter your command: ");
+                    exit = ProcessData.processCommand(Console.ReadLine());
+                }
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine(error.Message);
+            }
         }
     }
 }

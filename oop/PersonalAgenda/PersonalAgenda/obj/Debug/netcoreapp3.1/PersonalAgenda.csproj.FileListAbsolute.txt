@@ -11,3 +11,16 @@ C:\Users\Varga Erik Zsolt\source\repos\PersonalAgenda\PersonalAgenda\obj\Debug\n
 C:\Users\Varga Erik Zsolt\source\repos\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.dll
 C:\Users\Varga Erik Zsolt\source\repos\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.pdb
 C:\Users\Varga Erik Zsolt\source\repos\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.genruntimeconfig.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\bin\Debug\netcoreapp3.1\PersonalAgenda.exe
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\bin\Debug\netcoreapp3.1\PersonalAgenda.deps.json
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\bin\Debug\netcoreapp3.1\PersonalAgenda.runtimeconfig.json
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\bin\Debug\netcoreapp3.1\PersonalAgenda.runtimeconfig.dev.json
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\bin\Debug\netcoreapp3.1\PersonalAgenda.dll
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\bin\Debug\netcoreapp3.1\PersonalAgenda.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.AssemblyInfoInputs.cache
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.AssemblyInfo.cs
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.dll
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.pdb
+C:\Users\Varga Erik Zsolt\Documents\university\repo\bsc\oop\PersonalAgenda\PersonalAgenda\obj\Debug\netcoreapp3.1\PersonalAgenda.genruntimeconfig.cache
