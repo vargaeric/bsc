@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PersonalAgenda
 {
@@ -9,7 +10,7 @@ namespace PersonalAgenda
         public string Description { get; }
         public DateTime StartDate { get; }
         public DateTime EndDate { get; }
-        public int[] Participants { get; }
+        public List<int> Participants { get; }
 
         public Activity(
             int id,
@@ -17,7 +18,7 @@ namespace PersonalAgenda
             string description,
             string startDate,
             string endDate,
-            int[] participants
+            List<int> participants
         )
         {
             Id = id;
@@ -37,7 +38,7 @@ namespace PersonalAgenda
             output += $"Description: {Description}\n";
             output += $"Start date: {ProcessData.getDateTimeInString(StartDate)}\n";
             output += $"End date: {ProcessData.getDateTimeInString(EndDate)}\n";
-            output += $"Participants: {string.Join(", ", Participants)}\n";
+            output += $"Participants: {string.Join(", ", Participants.ToArray())}\n";
             output += "---------------------------\n\n";
 
             return output;

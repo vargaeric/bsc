@@ -1,17 +1,25 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using Microsoft.VisualBasic.FileIO;
 
 namespace PersonalAgenda
 {
     internal class ProcessData
     {
+        private static string pathToPersonsCSVFile;
+        private static string pathToActivitesCSVFile;
+        private static string personsCSVFileHeader;
+        private static string activitesCSVFileHeader;
+
         public static List<Person> parsePersonsCSVFile(string path)
         {
+            pathToPersonsCSVFile = path;
+
             List<Person> persons = new List<Person>();
 
             string[] allLinesFromFile = File.ReadAllLines(@path);
+
+            personsCSVFileHeader = allLinesFromFile[0];
 
             for (int i = 1; i < allLinesFromFile.Length; i++)
             {
@@ -33,15 +41,19 @@ namespace PersonalAgenda
 
         public static List<Activity> parseActivitesCSVFile(string path)
         {
+            pathToActivitesCSVFile = path;
+
             List<Activity> activites = new List<Activity>();
 
             string[] allLinesFromFile = File.ReadAllLines(@path);
+
+            activitesCSVFileHeader = allLinesFromFile[0];
 
             for (int i = 1; i < allLinesFromFile.Length; i++)
             {
                 string[] activityInfos = allLinesFromFile[i].Split(", ");
 
-                int[] participantsIds = Array.ConvertAll(activityInfos[5].Split(";"), int.Parse);
+                List<int> participantsIds = new List<int>(Array.ConvertAll(activityInfos[5].Split(";"), int.Parse));
 
                 Activity activity = new Activity(
                     Convert.ToInt32(activityInfos[0]),
@@ -56,6 +68,45 @@ namespace PersonalAgenda
             }
 
             return activites;
+        }
+
+        public static void writePersonsCSVFile(List<Person> persons, string path)
+        {
+            string[] output = new string[persons.Count + 1];
+
+            output[0] = personsCSVFileHeader;
+
+            for(int i = 0; i < persons.Count; i++)
+            {
+                output[i + 1] = Convert.ToString(persons[i].Id) + ", ";
+                output[i + 1] += persons[i].LastName + ", ";
+                output[i + 1] += persons[i].FirstName + ", ";
+                output[i + 1] += getDateTimeInString(persons[i].Birthdate) + ", ";
+                output[i + 1] += persons[i].Email;
+            }
+
+            File.WriteAllLines(@path, output);
+        }
+
+        public static void writeActivitesCSVFile(List<Activity> activites, string path)
+        {
+            string[] output = new string[activites.Count + 1];
+
+            output[0] = activitesCSVFileHeader;
+
+            for (int i = 0; i < activites.Count; i++)
+            {
+                output[i + 1] = Convert.ToString(activites[i].Id) + ", ";
+                output[i + 1] += activites[i].Name + ", ";
+                output[i + 1] += activites[i].Description + ", ";
+                output[i + 1] += getDateTimeInString(activites[i].StartDate) + ", ";
+                output[i + 1] += getDateTimeInString(activites[i].EndDate) + ", ";
+
+                int[] participantsIds = activites[i].Participants.ToArray();
+                output[i + 1] += string.Join(";", Array.ConvertAll(participantsIds, id => id.ToString()));
+            }
+
+            File.WriteAllLines(@path, output);
         }
 
         public static DateTime getDateTimeFormat(string date)
@@ -81,6 +132,7 @@ namespace PersonalAgenda
 
             commands += "The commands can be the following ones:\n";
             commands += "help (list all the commands)\n";
+            commands += "save (write the modified data in the files)\n";
             commands += "create-person (creates a new person)\n";
             commands += "create-event (creates a new event)\n";
             commands += "delete-person (deletes a person)\n";
@@ -92,6 +144,14 @@ namespace PersonalAgenda
             Console.WriteLine(commands);
         }
 
+        public static void save(List<Person> persons, List<Activity> activites)
+        {
+            writePersonsCSVFile(persons, pathToPersonsCSVFile);
+            writeActivitesCSVFile(activites, pathToActivitesCSVFile);
+
+            Console.WriteLine("The data has been successfully saved in the files!");
+        }
+
         public static bool processCommand(string commandInput, List<Person> persons, List<Activity> activites)
         {
             bool exitProgram = false;
@@ -99,6 +159,10 @@ namespace PersonalAgenda
             if (commandInput.Contains("help"))
             {
                 help();
+            }
+            else if (commandInput.Contains("save"))
+            {
+                save(persons, activites);
             }
             else if (commandInput.Contains("create-person"))
             {
@@ -110,7 +174,7 @@ namespace PersonalAgenda
             }
             else if (commandInput.Contains("delete-person"))
             {
-                deletePerson(persons);
+                deletePerson(persons, activites);
             }
             else if (commandInput.Contains("delete-event"))
             {
@@ -118,11 +182,11 @@ namespace PersonalAgenda
             }
             else if (commandInput.Contains("search-person"))
             {
-                searchPerson();
+                searchPerson(persons);
             }
             else if (commandInput.Contains("search-event"))
             {
-                searchEvent();
+                searchEvent(activites);
             }
             else if (commandInput.Contains("exit"))
             {
@@ -141,16 +205,16 @@ namespace PersonalAgenda
         {
             int id = persons[persons.Count - 1].Id + 1;
 
-            Console.Write("Last name=");
+            Console.Write("Last name = ");
             string lastName = Console.ReadLine();
 
-            Console.Write("First name=");
+            Console.Write("First name = ");
             string firstName = Console.ReadLine();
 
-            Console.Write("Birthdate name=");
+            Console.Write("Birthdate name = ");
             string birthdate = Console.ReadLine();
 
-            Console.Write("Email name=");
+            Console.Write("Email name = ");
             string email = Console.ReadLine();
 
             Person newPerson = new Person(id, lastName, firstName, birthdate, email);
@@ -161,73 +225,153 @@ namespace PersonalAgenda
         {
             int id = activites[activites.Count - 1].Id + 1;
 
-            Console.Write("Name=");
+            Console.Write("Name = ");
             string name = Console.ReadLine();
 
-            Console.Write("Description=");
+            Console.Write("Description = ");
             string description = Console.ReadLine();
 
-            Console.Write("Start date=");
+            Console.Write("Start date = ");
             string startDate = Console.ReadLine();
 
-            Console.Write("End date=");
+            Console.Write("End date = ");
             string endDate = Console.ReadLine();
 
 
-            Console.Write("Participants Ids (separated with ;)=");
+            Console.Write("Participants Ids (separated with ;) = ");
             string participantsIdsString = Console.ReadLine();
 
-            int[] participantsIds = Array.ConvertAll(participantsIdsString.Split(";"), int.Parse);
+            List<int> participantsIds = new List<int>(Array.ConvertAll(participantsIdsString.Split(";"), int.Parse));
 
-            Activity newActivity = new Activity(id, name, description, startDate, endDate, participantsIds);
+            bool participantExists = true;
 
-            for (int i = 0; i < participantsIds.Length; i++)
-                for (int j = 0; j < persons.Count; j++)
-                    if (persons[j].Id == participantsIds[i])
-                        persons[j].PersonsAgenda.addActivity(newActivity);
-
-            activites.Add(newActivity);
-        }
-
-        public static void deletePerson(List<Person> persons)
-        {
-            Console.WriteLine("All the persons with their IDs:");
-
-            foreach(Person person in persons)
-                Console.WriteLine($"{person.Id} - {person.LastName} {person.FirstName}");
-
-            Console.Write("Give the ID of the person you wan to delete= ");
-            int personToDelete = Convert.ToInt32(Console.ReadLine());
-
-            int personToDeleteIndex = -1;
-
-            for (int i = 0; i < persons.Count; i++)
-                if (persons[i].Id == personToDelete)
-                    personToDeleteIndex = i;
-
-            if (personToDeleteIndex != -1)
+            for (int i = 0; i < participantsIds.Count && participantExists == true; i++)
             {
-                persons.RemoveAt(personToDeleteIndex);
+                participantExists = false;
+
+                for (int j = 0; j < persons.Count; j++)
+                {
+                    if (participantsIds[i] == persons[i].Id)
+                        participantExists = true;
+                }
             }
+
+            // If the above for has ended and the variable participantExists is false
+            // it means that one of the given participants does not exists in the persons list
+            if (participantExists == false)
+                Console.WriteLine("One of the given participants does not exits in the person list!");
             else
             {
-                Console.WriteLine("There is no person with the given ID.");
+                Activity newActivity = new Activity(id, name, description, startDate, endDate, participantsIds);
+
+                for (int i = 0; i < participantsIds.Count; i++)
+                    for (int j = 0; j < persons.Count; j++)
+                        if (persons[j].Id == participantsIds[i])
+                            persons[j].PersonsAgenda.addActivity(newActivity);
+
+                activites.Add(newActivity);
             }
+        }
+
+        public static void deletePerson(List<Person> persons, List<Activity> activites)
+        {
+            Console.Write("Give the ID of the person you want to delete = ");
+            int personToDelete = Convert.ToInt32(Console.ReadLine());
+
+            int personToDeleteRealIndex = -1;
+            int indexOfPersonInParticipants;
+
+            for (int i = 0; i < persons.Count && personToDeleteRealIndex == -1; i++)
+                if (persons[i].Id == personToDelete)
+                    personToDeleteRealIndex = i;
+
+            if (personToDeleteRealIndex != -1)
+            {
+                persons.RemoveAt(personToDeleteRealIndex);
+
+                for (int i = 0; i < activites.Count; i++)
+                {
+                    indexOfPersonInParticipants = -1;
+
+                    for (int j = 0; j < activites[i].Participants.Count; j++)
+                        if (activites[i].Participants[j] == personToDelete)
+                            indexOfPersonInParticipants = j;
+
+                    if (indexOfPersonInParticipants != -1)
+                        activites[i].Participants.RemoveAt(indexOfPersonInParticipants);
+
+                    // If the activity does not have any participants remove it completely from the list
+                    if(activites[i].Participants.Count == 0)
+                    {
+                        activites.RemoveAt(i);
+                        i--;
+                    }
+                }
+            }
+            else
+                Console.WriteLine("There is no person with the given ID.");
         }
 
         public static void deleteEvent(List<Activity> activites, List<Person> persons)
         {
+            Console.Write("Give the ID of the activity you want to delete = ");
+            int activityToDelete = Convert.ToInt32(Console.ReadLine());
 
+            int activityToDeleteRealIndex = -1;
+
+            for (int i = 0; i < activites.Count; i++)
+                if (activites[i].Id == activityToDelete)
+                    activityToDeleteRealIndex = i;
+
+            if (activityToDeleteRealIndex != -1)
+            {
+                activites.RemoveAt(activityToDeleteRealIndex);
+
+                foreach(Person person in persons)
+                    person.PersonsAgenda.removeActivity(activityToDeleteRealIndex);
+            }
+            else
+            {
+                Console.WriteLine("There is no activity with the given ID.");
+            }
         }
 
-        public static void searchPerson()
+        public static void searchPerson(List<Person> persons)
         {
+            Console.Write("Give the last name / first name / full name of the person = ");
 
+            string searchByThisText = Console.ReadLine();
+
+            bool found = false;
+
+            for(int i = 0; i < persons.Count; i++)
+                if ($"{persons[i].LastName.ToLower()} {persons[i].FirstName.ToLower()}".Contains(searchByThisText.ToLower()))
+                {
+                    found = true;
+                    Console.WriteLine(persons[i].ToString());
+                }
+
+            if (!found)
+                Console.WriteLine("Could not find a person with this name.");
         }
 
-        public static void searchEvent()
+        public static void searchEvent(List<Activity> activites)
         {
+            Console.Write("Give some keywords in the event name or description = ");
 
+            string searchByThisText = Console.ReadLine();
+
+            bool found = false;
+
+            for (int i = 0; i < activites.Count; i++)
+                if ($"{activites[i].Name.ToLower()} {activites[i].Description.ToLower()}".Contains(searchByThisText.ToLower()))
+                {
+                    found = true;
+                    Console.WriteLine(activites[i].ToString());
+                }
+
+            if (!found)
+                Console.WriteLine("Could not find activity with this name or description.");
         }
     }
 }
