@@ -92,7 +92,7 @@ namespace PersonalAgenda
             Console.WriteLine(commands);
         }
 
-        public static bool processCommand(string commandInput)
+        public static bool processCommand(string commandInput, List<Person> persons, List<Activity> activites)
         {
             bool exitProgram = false;
 
@@ -102,19 +102,19 @@ namespace PersonalAgenda
             }
             else if (commandInput.Contains("create-person"))
             {
-                createPerson();
+                createPerson(persons);
             }
             else if (commandInput.Contains("create-event"))
             {
-                createEvent();
+                createEvent(activites, persons);
             }
             else if (commandInput.Contains("delete-person"))
             {
-                deletePerson();
+                deletePerson(persons);
             }
             else if (commandInput.Contains("delete-event"))
             {
-                deleteEvent();
+                deleteEvent(activites, persons);
             }
             else if (commandInput.Contains("search-person"))
             {
@@ -137,22 +137,85 @@ namespace PersonalAgenda
             return exitProgram;
         }
 
-        public static void createPerson()
+        public static void createPerson(List<Person> persons)
         {
-            
+            int id = persons[persons.Count - 1].Id + 1;
+
+            Console.Write("Last name=");
+            string lastName = Console.ReadLine();
+
+            Console.Write("First name=");
+            string firstName = Console.ReadLine();
+
+            Console.Write("Birthdate name=");
+            string birthdate = Console.ReadLine();
+
+            Console.Write("Email name=");
+            string email = Console.ReadLine();
+
+            Person newPerson = new Person(id, lastName, firstName, birthdate, email);
+            persons.Add(newPerson);
         }
 
-        public static void createEvent()
+        public static void createEvent(List<Activity> activites, List<Person> persons)
         {
+            int id = activites[activites.Count - 1].Id + 1;
 
+            Console.Write("Name=");
+            string name = Console.ReadLine();
+
+            Console.Write("Description=");
+            string description = Console.ReadLine();
+
+            Console.Write("Start date=");
+            string startDate = Console.ReadLine();
+
+            Console.Write("End date=");
+            string endDate = Console.ReadLine();
+
+
+            Console.Write("Participants Ids (separated with ;)=");
+            string participantsIdsString = Console.ReadLine();
+
+            int[] participantsIds = Array.ConvertAll(participantsIdsString.Split(";"), int.Parse);
+
+            Activity newActivity = new Activity(id, name, description, startDate, endDate, participantsIds);
+
+            for (int i = 0; i < participantsIds.Length; i++)
+                for (int j = 0; j < persons.Count; j++)
+                    if (persons[j].Id == participantsIds[i])
+                        persons[j].PersonsAgenda.addActivity(newActivity);
+
+            activites.Add(newActivity);
         }
 
-        public static void deletePerson()
+        public static void deletePerson(List<Person> persons)
         {
+            Console.WriteLine("All the persons with their IDs:");
 
+            foreach(Person person in persons)
+                Console.WriteLine($"{person.Id} - {person.LastName} {person.FirstName}");
+
+            Console.Write("Give the ID of the person you wan to delete= ");
+            int personToDelete = Convert.ToInt32(Console.ReadLine());
+
+            int personToDeleteIndex = -1;
+
+            for (int i = 0; i < persons.Count; i++)
+                if (persons[i].Id == personToDelete)
+                    personToDeleteIndex = i;
+
+            if (personToDeleteIndex != -1)
+            {
+                persons.RemoveAt(personToDeleteIndex);
+            }
+            else
+            {
+                Console.WriteLine("There is no person with the given ID.");
+            }
         }
 
-        public static void deleteEvent()
+        public static void deleteEvent(List<Activity> activites, List<Person> persons)
         {
 
         }

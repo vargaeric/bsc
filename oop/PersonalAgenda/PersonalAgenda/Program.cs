@@ -39,7 +39,12 @@ namespace PersonalAgenda
                 {
                     separatorLine();
                     Console.Write("Enter your command: ");
-                    exit = ProcessData.processCommand(Console.ReadLine());
+                    exit = ProcessData.processCommand(Console.ReadLine(), persons, activites);
+                }
+
+                foreach (Person person in persons)
+                {
+                    Console.WriteLine(person.ToString());
                 }
             }
             catch (Exception error)
