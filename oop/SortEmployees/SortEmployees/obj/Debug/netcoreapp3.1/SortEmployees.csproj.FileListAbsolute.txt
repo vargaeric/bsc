@@ -1,0 +1,13 @@
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\bin\Debug\netcoreapp3.1\SortEmployees.exe
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\bin\Debug\netcoreapp3.1\SortEmployees.deps.json
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\bin\Debug\netcoreapp3.1\SortEmployees.runtimeconfig.json
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\bin\Debug\netcoreapp3.1\SortEmployees.runtimeconfig.dev.json
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\bin\Debug\netcoreapp3.1\SortEmployees.dll
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\bin\Debug\netcoreapp3.1\SortEmployees.pdb
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.csprojAssemblyReference.cache
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.csproj.CoreCompileInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.AssemblyInfoInputs.cache
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.AssemblyInfo.cs
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.dll
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.pdb
+C:\Users\Varga Erik Zsolt\source\repos\SortEmployees\SortEmployees\obj\Debug\netcoreapp3.1\SortEmployees.genruntimeconfig.cache
