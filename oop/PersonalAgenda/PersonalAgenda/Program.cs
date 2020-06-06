@@ -70,7 +70,7 @@ namespace PersonalAgenda
                         foreach (int participantId in activity.Participants)
                             for (int i = 0; i < persons.Count; i++)
                                 if (persons[i].Id == participantId)
-                                    persons[i].PersonsAgenda.addActivity(activity);
+                                    persons[i].Agenda.addActivity(activity);
                     });
 
                     ProcessData.help();

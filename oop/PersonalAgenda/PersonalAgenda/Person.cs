@@ -9,7 +9,7 @@ namespace PersonalAgenda
         public string FirstName { get; }
         public DateTime Birthdate { get; }
         public string Email { get; }
-        public Agenda PersonsAgenda { get; }
+        public AgendaClass Agenda { get; }
         public Person(int id, string lastName, string firstName, string birthdate, string email)
         {
             Id = id;
@@ -17,7 +17,7 @@ namespace PersonalAgenda
             FirstName = firstName;
             Birthdate = ProcessData.getDateTimeFormat(birthdate);
             Email = email;
-            PersonsAgenda = new Agenda();
+            Agenda = new AgendaClass();
         }
 
         public override string ToString()

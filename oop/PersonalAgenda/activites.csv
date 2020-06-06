@@ -3,7 +3,7 @@ Id, Name, Description, Start date, End date, Participants
 1, Cooking, Making food for the kids, 2020-08-02 12:00:00, 2020-08-02 12:20:00, 0;1;3
 2, Work, Setup inital for my project, 2020-05-01 08:00:00, 2020-05-01 16:00:00, 4;5
 3, Work, Last settings for my project, 2020-06-01 08:00:00, 2020-06-01 16:00:00, 3;5
-4, Studying, Study biology, 2020-06-02 16:00:00, 2020-06-02 16:00:00, 3;4;5
+4, Studying, Study biology, 2020-06-02 16:00:00, 2020-06-02 18:00:00, 3;4;5
 5, Sport, Play tennis, 2020-06-18 12:00:00, 2020-06-18 15:00:00, 0;1;5
 6, Studying, Study economics, 2020-05-10 21:00:00, 2020-05-10 23:00:00, 1;3
 7, Fun, Birthday party, 2020-06-19 20:00:00, 2020-06-20 04:00:00, 0;1;2

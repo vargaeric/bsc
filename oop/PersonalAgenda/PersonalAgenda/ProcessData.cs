@@ -139,6 +139,8 @@ namespace PersonalAgenda
             commands += "delete-event (deletes an event)\n";
             commands += "search-person (search for a person)\n";
             commands += "search-event (search for an event)\n";
+            commands += "see-person-events (list all the events of a person)\n";
+            commands += "generate-report (list all the events of a person in a given interval)\n";
             commands += "exit (exit the program)\n";
 
             Console.WriteLine(commands);
@@ -187,6 +189,14 @@ namespace PersonalAgenda
             else if (commandInput.Contains("search-event"))
             {
                 searchEvent(activites);
+            }
+            else if (commandInput.Contains("see-person-events"))
+            {
+                seePersonEvents(persons);
+            }
+            else if (commandInput.Contains("generate-report"))
+            {
+                generateReport(persons);
             }
             else if (commandInput.Contains("exit"))
             {
@@ -251,7 +261,7 @@ namespace PersonalAgenda
 
                 for (int j = 0; j < persons.Count; j++)
                 {
-                    if (participantsIds[i] == persons[i].Id)
+                    if (participantsIds[i] == persons[j].Id)
                         participantExists = true;
                 }
             }
@@ -267,7 +277,7 @@ namespace PersonalAgenda
                 for (int i = 0; i < participantsIds.Count; i++)
                     for (int j = 0; j < persons.Count; j++)
                         if (persons[j].Id == participantsIds[i])
-                            persons[j].PersonsAgenda.addActivity(newActivity);
+                            persons[j].Agenda.addActivity(newActivity);
 
                 activites.Add(newActivity);
             }
@@ -276,34 +286,34 @@ namespace PersonalAgenda
         public static void deletePerson(List<Person> persons, List<Activity> activites)
         {
             Console.Write("Give the ID of the person you want to delete = ");
-            int personToDelete = Convert.ToInt32(Console.ReadLine());
+            int personToDeleteID = Convert.ToInt32(Console.ReadLine());
 
-            int personToDeleteRealIndex = -1;
-            int indexOfPersonInParticipants;
+            Person personToDelete = null;
+            int participantId;
 
-            for (int i = 0; i < persons.Count && personToDeleteRealIndex == -1; i++)
-                if (persons[i].Id == personToDelete)
-                    personToDeleteRealIndex = i;
+            for (int i = 0; i < persons.Count && personToDelete == null; i++)
+                if (persons[i].Id == personToDeleteID)
+                    personToDelete = persons[i];
 
-            if (personToDeleteRealIndex != -1)
+            if (personToDelete != null)
             {
-                persons.RemoveAt(personToDeleteRealIndex);
+                persons.Remove(personToDelete);
 
                 for (int i = 0; i < activites.Count; i++)
                 {
-                    indexOfPersonInParticipants = -1;
+                    participantId = -1;
 
                     for (int j = 0; j < activites[i].Participants.Count; j++)
-                        if (activites[i].Participants[j] == personToDelete)
-                            indexOfPersonInParticipants = j;
+                        if (activites[i].Participants[j] == personToDeleteID)
+                            participantId = activites[i].Participants[j];
 
-                    if (indexOfPersonInParticipants != -1)
-                        activites[i].Participants.RemoveAt(indexOfPersonInParticipants);
+                    if (participantId != -1)
+                        activites[i].Participants.Remove(participantId);
 
                     // If the activity does not have any participants remove it completely from the list
                     if(activites[i].Participants.Count == 0)
                     {
-                        activites.RemoveAt(i);
+                        activites.Remove(activites[i]);
                         i--;
                     }
                 }
@@ -315,20 +325,20 @@ namespace PersonalAgenda
         public static void deleteEvent(List<Activity> activites, List<Person> persons)
         {
             Console.Write("Give the ID of the activity you want to delete = ");
-            int activityToDelete = Convert.ToInt32(Console.ReadLine());
+            int activityToDeleteID = Convert.ToInt32(Console.ReadLine());
 
-            int activityToDeleteRealIndex = -1;
+            Activity activityToDelete = null;
 
-            for (int i = 0; i < activites.Count; i++)
-                if (activites[i].Id == activityToDelete)
-                    activityToDeleteRealIndex = i;
+            for (int i = 0; i < activites.Count && activityToDelete == null; i++)
+                if (activites[i].Id == activityToDeleteID)
+                    activityToDelete = activites[i];
 
-            if (activityToDeleteRealIndex != -1)
+            if (activityToDelete != null)
             {
-                activites.RemoveAt(activityToDeleteRealIndex);
+                activites.Remove(activityToDelete);
 
                 foreach(Person person in persons)
-                    person.PersonsAgenda.removeActivity(activityToDeleteRealIndex);
+                    person.Agenda.removeActivity(activityToDelete);
             }
             else
             {
@@ -372,6 +382,64 @@ namespace PersonalAgenda
 
             if (!found)
                 Console.WriteLine("Could not find activity with this name or description.");
+        }
+
+        public static void seePersonEvents(List<Person> persons)
+        {
+            Console.Write("Give the person's ID to see all his/her events = ");
+
+            int personId = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine();
+
+            for (int i = 0; i < persons.Count; i++)
+                if (persons[i].Id == personId)
+                {
+                    persons[i].Agenda.sortActivitesByDate();
+                    Console.WriteLine(persons[i].Agenda.ToString());
+                }
+        }
+
+        public static void generateReport(List<Person> persons)
+        {
+            Console.Write("Give the person's ID to see his/her events in a given interval = ");
+
+            int personId = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Give the start date of the interval = ");
+
+            DateTime startDate = getDateTimeFormat(Console.ReadLine());
+
+            Console.Write("Give the end date of the interval = ");
+
+            DateTime endDate = getDateTimeFormat(Console.ReadLine());
+
+            Console.WriteLine();
+
+            bool afterTheStartDate = false;
+            bool passedTheEndDate = false;
+
+            for (int i = 0; i < persons.Count; i++)
+                if (persons[i].Id == personId)
+                {
+                    persons[i].Agenda.sortActivitesByDate();
+
+                    for (int j = 0; j < persons[i].Agenda.activites.Count && !passedTheEndDate; j++)
+                    {
+                        // True if the activity start date after the given start date or in that exact same second
+                        if (DateTime.Compare(startDate, persons[i].Agenda.activites[j].StartDate) == -1
+                            || DateTime.Compare(startDate, persons[i].Agenda.activites[j].StartDate) == 0
+                        )
+                            afterTheStartDate = true;
+
+                        // Will give true if the activity start date is after the given end date
+                        if (DateTime.Compare(endDate, persons[i].Agenda.activites[j].StartDate) == -1)
+                            passedTheEndDate = true;
+
+                        if (afterTheStartDate && !passedTheEndDate)
+                            Console.WriteLine(persons[i].Agenda.activites[j]);
+                    }
+                }
         }
     }
 }
